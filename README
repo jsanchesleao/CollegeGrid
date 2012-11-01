@@ -1,0 +1,17 @@
+calcula o melhor grid de horario baseado num arquivo texto no seguinte formato:
+
+NomeDaMateria turma
+H1 H2 H3 H4
+
+NomeDaMateria turma
+H5 H5 H6 H7
+
+
+- O arquivo materias.txt serve como exemplo
+- Sempre há uma linha em branco separando duas materias. 
+- O nome da materia nao pode conter espaço. 
+- Uma turma pode ser especificada, opcionalmente, depois do nome da materia.
+- Na linha debaixo, os tempos sao especificados separados por espaco
+- Execute com o comando abaixo:
+
+scala mediador.jar NOMEDOARQUIVO
